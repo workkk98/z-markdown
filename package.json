@@ -1,0 +1,13 @@
+{
+  "name": "z-markdown",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "workkk <gentlebob1998@icloud.com>",
+  "license": "MIT",
+  "scripts": {
+    "lerna": "lerna"
+  },
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  }
+}
