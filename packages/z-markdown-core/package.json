@@ -1,0 +1,36 @@
+{
+  "name": "z-markdown-core",
+  "version": "1.0.0",
+  "description": "z-markdown-core",
+  "keywords": [
+    "markdown"
+  ],
+  "author": "workkk <gentlebob1998@icloud.com>",
+  "homepage": "https://github.com/workkk98/z-markdown#readme",
+  "license": "MIT",
+  "main": "src/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.yarnpkg.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/workkk98/z-markdown.git"
+  },
+  "scripts": {
+    "test": "node ./src/index.js"
+  },
+  "bugs": {
+    "url": "https://github.com/workkk98/z-markdown/issues"
+  },
+  "dependencies": {
+    "markdown-it": "^12.0.6",
+    "markdown-it-multimd-table": "^4.1.0"
+  }
+}

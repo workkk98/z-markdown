@@ -1,0 +1,40 @@
+{
+  "name": "zmd-cli",
+  "version": "1.0.0",
+  "description": "create files from markdown.",
+  "keywords": [
+    "markdown",
+    "cli"
+  ],
+  "author": "workkk <gentlebob1998@icloud.com>",
+  "homepage": "https://github.com/workkk98/z-markdown#readme",
+  "license": "MIT",
+  "bin": "bin/zmd.js",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.yarnpkg.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/workkk98/z-markdown.git"
+  },
+  "scripts": {
+    "test": "node ./src/index.js",
+    "zmd": "./bin/zmd.js"
+  },
+  "bugs": {
+    "url": "https://github.com/workkk98/z-markdown/issues"
+  },
+  "dependencies": {
+    "commander": "^7.2.0",
+    "lodash": "^4.17.21",
+    "z-markdown-core": "1.0.0"
+  }
+}
